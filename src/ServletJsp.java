@@ -23,7 +23,7 @@ public class ServletJsp extends HttpServlet {
 		String name = request.getParameter("uname");
 		String city = request.getParameter("ucity");
 		
-		System.out.println("Your name is " + name + " " + city);
+		System.out.println("Your name is " + name + " and your city is " + city);
 		
 		response.sendRedirect("success.jsp");
 	}
