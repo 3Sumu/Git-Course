@@ -24,6 +24,7 @@ public class ServletJsp extends HttpServlet {
 		String city = request.getParameter("ucity");
 		
 		System.out.println("Your name is " + name + " and your city is " + city);
+		System.out.println();
 		
 		response.sendRedirect("success.jsp");
 	}
